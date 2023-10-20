@@ -1,0 +1,333 @@
+
+.container {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  /* border: 1px solid #ccc; */
+  border-radius: 5px;
+  font-size: 25px;
+}
+.container-fluid {
+  border-radius: 10px;
+  width: 68%;
+  color: white;
+  font-size: 20px;
+  margin: 0 auto;
+}
+.combined-title {
+  display: flex;
+  width: 85%;
+  padding-left: 6%;
+  justify-content: space-between;
+}
+.title-invoice {
+  display: block;
+  color: #ccc;
+  font-size: 20px;
+  padding-top: 2%;
+  margin-left: 13%;
+
+}
+.title-invoice.status {
+  display: flex;
+}
+
+.horizontal-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 40px;
+}
+
+.title-invoice.status p,
+.title-invoice.status button {
+  margin: 0;
+}
+
+.invoice-btn {
+  background-color: #4a3896;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  gap: 1rem;
+  align-items: center; /* Vertically center-align content */
+}
+
+.plus-icon {
+  color: #544277;
+  background-color: aliceblue;
+  border-radius: 20px;
+  font-size: 18px;
+}
+
+.invoice-btn:hover {
+  background-color: #563fa9;
+
+}
+
+.sub-title {
+  font-size: 30px;
+  font-weight: bold;
+  color: whitesmoke;
+}
+
+.invoice-container {
+  border: 1px solid #ccc;
+  margin-top: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 5rem;
+  border-radius: 10px;
+  background-color: #1E2139;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* .invoice-name {
+  /* font-weight: bold; */
+  /* color: #f7f7f7;
+  padding: 20px;
+} */ */
+
+.invoice-date {
+  color: #d82424;
+  margin-right: 20px;
+  padding: 20px;
+}
+
+.status-button {
+  background-color: #6b6a6e;
+  color: #1E2139;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  border: none;
+  height: 2rem;
+  width: 5rem;
+  /* width: 100%;
+  height: 100%; */
+  
+}
+.circle{
+  padding-top: 9px;
+  font-size: 15px;
+}
+.status-button .text.paid {
+  display: flex;
+  color: #2caeb7;
+}
+.status-button .text.draft{
+  color:white;
+  display: flex;
+}
+.invoice-container .pluss{
+  margin-right: 20px;
+}
+.status-button .text.pending {
+  color: #e18d33;
+  
+   /* Green text color for "completed" status */
+ display: flex;
+ } 
+
+/* Style for the author */
+/* .invoice-author {
+  color: #888;
+} */
+
+/* Style for the container of date and author */
+.date-author-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.pl{
+  display: flex;
+  align-items: center;
+  margin-right: 2rem;
+ 
+}
+.plus{
+   padding-left:4px;
+   align-items: center;
+   padding-top: 4px;
+   font-size:20px;
+}
+.pluss{
+  padding-left:4px;
+  align-items: center;
+  padding-top: 4px;
+  font-size:20px;
+  color: rgb(114, 114, 216);
+}
+
+@media (min-width:1300px){
+  /* .title-invoice{
+    margin-left: 1PX,
+    } */
+  
+}
+@media (max-width: 768px) {
+  .title-invoice{
+  margin-left: 2px;
+
+   
+  }
+  
+
+  /* .combined-title{
+    background-color: #e316a6;
+  } */
+  .invoice-btn{
+   
+    
+    font-size: 1px;
+  }
+  .invoice-date{
+    
+    display: flex;
+  }
+.container-fluid{
+  width: 90%;
+  margin-left: 2px;
+}
+  
+}
+/* .combined-title{
+  height: 2rem;
+  align-items: center;
+  display: flex;
+} */
+.sub-title{
+  font-size: 100%;
+}
+/* .container{
+  margin-right: 2rem;
+  color: #e316a6;
+} */
+
+@media (max-width: 480px) {
+  /* Adjust styles for smaller screens */
+  .container-fluid {
+    
+    width: 90px; /* Wider container for smaller screens */
+  }
+  
+  
+  .combined-title {
+    
+  margin-left: 5px;
+  margin-top: 5rem; 
+    width: 20rem;
+    border-radius: 10px;
+    height: 5rem;
+
+    
+  }
+
+
+
+  /* .invoice-name,
+  .invoice-date {
+    padding: 5px; /* Further reduce padding for smaller screens */
+  /* } */ */
+
+  .right {
+    align-items: flex-start; /* Adjust alignment for smaller screens */
+  }
+
+  
+   
+  /* .plus {
+    /* height: 2%;
+    width: 500%; */
+    
+    /* color: #e316a6; */
+     /* Further reduce font size for smaller screens */
+  
+  .status-button{
+    /* background-color: #e316a6; */
+    font-size: 10px;
+    padding-left: 4px;
+    width: 50px;
+  height: 20px;
+    
+  }
+  .invoice-container{
+  
+    padding-right: 9px;
+    font-size: 11px;
+    gap: 3px;
+    height: 7rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+  .container-fluid {
+    border-radius: 10px;
+    width: 20rem;
+    
+    color: white;
+  
+    
+  }
+  .invoice-btn{
+    
+  margin: 0px;
+  padding: 0px;
+  
+  height: 22px;
+  gap: 6px;
+  font-size: 10px;
+    
+  }
+  .pl{
+    font-size: 14px;
+    margin: 0px;
+  }
+  .plus-icon{
+    
+    font-size: 10px;
+  }
+  .horizontal-container{
+    padding: 0px;
+    gap: 9px;
+    border-radius: 10px;
+    margin: 0px;
+  }
+  
+  .plus{
+    padding: 0px;
+    align-items: center;
+    margin: 0px;
+    font-size:13px;
+ }
+  .title-invoice.status{
+    padding: 0px;
+    margin: 0px;
+  }
+  .circle{
+    padding: 0px;
+    margin-top: 6px;
+    font-size: 5px;
+  }
+  /* .container{
+
+  } */
+}

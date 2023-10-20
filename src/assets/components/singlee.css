@@ -1,0 +1,144 @@
+.her{
+    border-radius: 12px;
+    display: flex;
+    width: 60%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1E2139;
+    margin-left: 10rem;
+    margin-top: 2%;
+    height: 6rem;
+}
+.go-back b{
+margin-left: 200PX;
+margin-top: 10PX;
+width: 10%;
+flex-direction: row;
+gap: 2px;
+display: flex;
+/* background-color: RED; */
+}
+.status{
+    display: flex;
+    gap: 20px;
+    padding-left: 20px;
+    flex-direction: row;
+}
+.status p{
+    color: #DFE3FA;
+    padding-top: 9px;
+}
+.but{
+    gap: 20px;
+    padding-right: 2rem;
+    display: flex;
+}
+.button b{
+    color: aqua;
+    border-radius: 15px;
+  padding: 10px;
+   background-color:#1F2C3F;
+   display: flex;
+
+}
+.mark:hover{
+    background-color:#565376;
+    
+}
+.mark{
+    background-color:#312D60;
+    color: #484A60;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.delete:hover{
+    background-color: rgb(167, 66, 99);
+}
+.edit:hover{
+    background-color: rgb(158, 150, 152);
+}
+.delete{
+    color: #FFFFFF;
+    background-color: #FF9797;
+    border-radius: 15px;
+    padding: 10px;  
+}
+.edit{
+    background-color: #DFE3FA;
+    border-radius: 15px;
+    color: #485ba1;
+    padding: 10px;  
+}
+.identifica{
+    
+    display: flex;
+    
+   /* flex-direction: ro; */
+   justify-content: space-between;
+}
+.class{
+    padding: 2%;
+    width: 60%;
+    margin-left: 10rem;
+    margin-top: 5%;
+    background-color: #1E2139;
+}
+.invoice-date{
+    gap: 40%;
+}
+.long-class{
+    padding-top: 15px;
+    display: flex;
+    gap: 10%; 
+}
+.function{
+
+    background-color: #252945;
+    display: flex;
+    height: 130px;
+    align-items: center;
+    padding: 2%;
+    border-radius: 9px;
+    gap: 15%;
+    margin-left: 10%;
+}
+.total{
+    margin-left: 10%;
+    height: 65px;
+    align-items: center;
+    /* padding:5% 0% 5% 10%; */
+    display: flex;
+    align-items: center;
+    padding: 2%;
+    flex-direction: row;
+    background-color: #0C0E16;
+    justify-content: space-between;
+}
+.class p{
+    color: #DFE3FA;
+}
+.class h {
+    color: #DFE3FA;
+}
+.class h6{
+    color: #DFE3FA;
+}
+.date{
+    color: #DFE3FA;
+}
+.class b{
+    color: #DFE3FA;
+}
+
+.faicon{
+    color: #485ba1;
+    
+    font-size: 25px;
+}
+.go-back{
+    color: #DFE3FA;
+    display: flex;
+    gap: 2px;
+}
